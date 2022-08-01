@@ -1,0 +1,30 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rheangocle/Tech-Blog.git"
+  },
+  "keywords": [],
+  "author": "Rhea Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rheangocle/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/rheangocle/Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
