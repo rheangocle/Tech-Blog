@@ -1,0 +1,22 @@
+[
+  {
+    "username": "harrypotter",
+    "password": "secretpassword"
+  },
+  {
+    "username": "ronweasley",
+    "password": "secretpassword2"
+  },
+  {
+    "username": "hermionegranger",
+    "password": "supersecret"
+  },
+  {
+    "username": "dumbledore",
+    "password": "oldalbus"
+  },
+  {
+    "username": "severussnape",
+    "password": "supersecret1"
+  }
+]

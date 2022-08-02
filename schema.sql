@@ -1,1 +1,1 @@
-CREATE DATABASE library_db;
+CREATE DATABASE techblog_user_db;
