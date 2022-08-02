@@ -1,13 +1,15 @@
 {{#each users as |user|}}
-<div class="card text-bg-dark mb-3 px-1 py-1">
-  <div class="card-header">{{user.title}} Sample Title</div>
-  <div class="card-body text-bg-light">
-    <p class="card-title">Post by: {{user.username}} on {{user.date_posted}}</p>
-    <p class="card-text">{{user.comment}} Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni molestiae
-      nesciunt,
-      in, sint modi, quibusdam sunt ipsum similique dicta consectetur placeat doloremque vel veniam aspernatur
-      dignissimos ea dolores! Placeat, impedit.
-    </p>
+<a href="/post/:id">
+  <div class="card text-bg-dark mb-3 px-1 py-1">
+    <div class="card-header">{{user.title}} Sample Title</div>
+    <div class="card-body text-bg-light">
+      <p class="card-title">Post by: {{user.username}} on {{user.date_posted}}</p>
+      <p class="card-text">{{user.comment}} Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni molestiae
+        nesciunt,
+        in, sint modi, quibusdam sunt ipsum similique dicta consectetur placeat doloremque vel veniam aspernatur
+        dignissimos ea dolores! Placeat, impedit.
+      </p>
+    </div>
   </div>
-</div>
+</a>
 {{/each}}
